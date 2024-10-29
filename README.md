@@ -1,5 +1,5 @@
 # mail2github
-Send E-Mail and create files in Github with content.
+Send E-Mail and create files in Github with content from the mail
 
 ## How to start?
 1. Get an email you can send things to
