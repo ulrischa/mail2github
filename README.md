@@ -2,20 +2,20 @@
 Send email and create files in Github with content from the mail.
 
 ## Why email?
-- you can use the email as access constraint with SPF and DKIM
+- You can use the email as access constraint with SPF and DKIM
 - Many email providers have a Virus protection
-- you can use seen and unseen to activate or deactivate import in github
-- It is available nearly everywhere. no app needed
+- You can use seen and unseen to activate or deactivate import in github
+- It is available nearly everywhere. No app needed
 
 ## How to start?
 1. Get an email you can send things to. Keep the email adress private and secure  
 2. Get connection parameters for the email provider (imap server name etc.)
 3. Create a github repo
-4. Get the github api token
+4. Get the github api token (repo permissions are enough)
 5. Fill the .env with this data
 6. Use pip to install requirements.txt
-7. start a cron mith mail2github.py
-8. send an email (for security reasin from the target email adress itself)
+7. Start a cron mith mail2github.py
+8. Send an email (for security reason from the target email adress itself)
 
 This will read the emails and commit the email body to the github repo provided. There are contol markers you can use in the email subject:
 
