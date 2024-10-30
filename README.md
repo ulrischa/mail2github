@@ -2,13 +2,14 @@
 Send E-Mail and create files in Github with content from the mail
 
 ## How to start?
-1. Get an email you can send things to
+1. Get an email you can send things to. Keep the email adress private and secure  
 2. Get connection parameters for the email provider (impap server name etc.)
 3. Create a github repo
 4. Get the github api token
 5. Fill the .env with this data
 6. Use pip to install requirements.txt
 7. start a cron mith mail2github.py
+8. send an email (for security reasin from the target email adress itself)
 
 This will read the emails and commit the email body to the github repo provided. There are contol markers you can use in the email subject:
 
