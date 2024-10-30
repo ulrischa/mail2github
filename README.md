@@ -3,7 +3,7 @@ Send E-Mail and create files in Github with content from the mail
 
 ## How to start?
 1. Get an email you can send things to. Keep the email adress private and secure  
-2. Get connection parameters for the email provider (impap server name etc.)
+2. Get connection parameters for the email provider (imap server name etc.)
 3. Create a github repo
 4. Get the github api token
 5. Fill the .env with this data
