@@ -60,3 +60,9 @@ The following control markers can be used in the email subject to specify metada
    - This places `bugfix.txt` in the `Folder2` subfolder of the repository `username/project-repo`, in the branch `hotfix`, with the commit message "Bug fix" and the author "John Doe", and creates the tag `v1.0.1`.
 
 The control markers are all optional, except for the filename (and optionally the path). If you choose the root of the repository as the target, you only need to provide the filename. The control markers give you the flexibility to define the desired parameters for making changes and keep control over the Git operations.
+
+## Why email?
+- you can use the email as access constraint with SPF and DKIM
+- Many email providers have a Virus protection
+- you can use seen and unseen to activate or deactivate import in github
+- It is available nearly everywhere. no app needed
