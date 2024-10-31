@@ -1,7 +1,7 @@
 # mail2github
 Send email and create files in Github with content from the mail.
 
-Useful i.e. to archive your chatgpt answers on github wirhout the need to install anything.
+Useful i.e. to archive your chatgpt answers on github wirhout the need to install anything on the client.
 
 ## Why email?
 - You can use the email as access constraint with SPF and DKIM
